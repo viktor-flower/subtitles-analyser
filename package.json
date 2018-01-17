@@ -1,0 +1,29 @@
+{
+  "name": "subtitles-analyser",
+  "version": "1.0.0",
+  "description": "The first commit.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "watch": "babel src -d lib -w",
+    "run": "node ./lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlikin/subtitles-analyser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vlikin/subtitles-analyser/issues"
+  },
+  "homepage": "https://github.com/vlikin/subtitles-analyser#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "subtitles-parser": "0.0.2"
+  }
+}
